@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tema Craciun</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Acasă</a></li>
+            <li><a href="#magazin">Magazin</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="v-header container">
+
+        <div class="fullscreen-video-wrap">
+            <video class="video" , autoplay="autoplay" , loop="loop">
+                <source src="resources/video/pom.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1>Împodobește-ți casa de Crăciun!</h1>
+            <a class="btn" href="#magazin">Să începem!</a>
+        </div>
+    </header>
+
+    <section id="magazin" class="categorii">
+        <p class="titlu">Magazin</p>
+        <p class="subtitlu">Selectați de mai jos categoria de produse care vă interesează</p>
+        <div class="wrapper">
+            <div class="decoratiuni categoria-1">
+                <div class="overlay"></div>
+                <h1><a href="decoratiuni.html">Decorațiuni</a></h1>
+            </div>
+            <div class="decoratiuni categoria-2">
+                <div class="overlay"></div>
+                <h1><a href="instalatii.html">Instalații</a></h1>
+            </div>
+            <div class="decoratiuni categoria-3">
+                <div class="overlay"></div>
+                <h1><a href="brazi.html">Brazi</a></h1>
+            </div>
+            <div class="decoratiuni categoria-4">
+                <div class="overlay"></div>
+                <h1><a href="altele.html">Altele</a></h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="galerie" class="galerie">
+        <p class="titlug">Galerie</p>
+        <div class="slidershow middle">
+
+            <div class="slides">
+
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <input type="radio" name="r" id="r5">
+
+                <div class="slide s1">
+                    <img src="resources/img/cadou2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="resources/img/cadou.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="resources/img/cadou3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="resources/img/da.webp" alt="">
+                </div>
+                <div class="slide">
+                    <img src="resources/img/new-years-eve-4351023__340.webp" alt="">
+                </div>
+
+            </div>
+
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+                <label for="r4" class="bar"></label>
+                <label for="r5" class="bar"></label>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+
+        <p class="titluc">Contact</p>
+
+        <div class="wrapperf">
+            <div class="formular_text">
+                <form action="contact.php" method="post">
+
+                    <input class="name" placeholder="Nume" name="name" type="text" required=""><br>
+                    <input class="lname" placeholder="Prenume" name="telefon" type="text"><br>
+                    <input class="email" placeholder="Email" name="email" type="text" required=""><br>
+                    <textarea class="mesaj" placeholder="Introduceti mesajul" name="mesaj" required=""></textarea><br>
+                    <button class="button" name="button">Trimiteți</button>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+    
+    <footer>
+       <div class="container"></div>
+        <div class="echipa">
+            <h2>Membrii echipei</h2>
+            <ul>
+                <li>Bordiciuc Mihai</li>
+                <li>Hurduza Laurian</li>
+                <li>Marcovici Bogdan</li>
+            </ul>
+        </div>
+        <div class="continut-site">
+            <h2>Continut site</h2>
+            <ul class="continut-site-url">
+                <li><a href="decoratiuni.html">Decorațiuni</a></li>
+                <li><a href="instalatii.html">Instalații</a></li>
+                <li><a href="brazi.html">Brazi</a></li>
+                <li><a href="altele.html">Altele</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    
+</body></html>
